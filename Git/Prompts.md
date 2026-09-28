@@ -1,7 +1,7 @@
 ### Forgot to fork
 
 ```git
-git remote add origin https://github.com/0xd34db8/NVM-OnTheFly.git
+git remote add origin <LINK>
 ```
 
 ```git
