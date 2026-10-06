@@ -15,5 +15,4 @@ feat: improve package management and download UX
 
 **Writing Commits to .gitmessage:**
 When changes are substantial enough to warrant a commit, agents should generate the commit message and add it to the `.gitmessage` file.
-- **Append, Do NOT Overwrite:** Always ADD (append) new commit messages to the end of the file. You must NEVER overwrite any previous text already present in `.gitmessage`.
-- Separate new commits from existing ones with a blank line.
+- **Append, Do NOT Overwrite:** Always ADD (append) new commit messages. You must NEVER overwrite any previous text already present in `.gitmessage`.
