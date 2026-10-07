@@ -1,9 +1,4 @@
 ### Forgot to fork
-
-```git
-git remote add origin <LINK>
-```
-
 ```git
 git remote set-url origin <LINK>
 ```
