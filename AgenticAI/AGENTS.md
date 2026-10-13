@@ -35,4 +35,5 @@ When a new release is required, follow these steps:
 5. **Push:** Push the commit and the tag to GitHub (`git push origin main` and `git push origin vX.Y.Z`).
 
 The GitHub Actions workflow `.github/workflows/release.yml` will automatically detect the new tag, build the app, read `RELEASE_NOTES.md` to populate the GitHub release body, and publish the release.
-If '.github/workflows/release.yml' is not found, ask the user to provide it instead of trying to create it yourself.
+
+If `.github/workflows/release.yml` is not found, ask the user to provide it instead of trying to create it yourself.
