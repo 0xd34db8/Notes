@@ -21,8 +21,28 @@ feat: improve package management and download UX
 # Commit Message Workflow
 
 **Writing Commits to .gitmessage:**
-When changes are substantial enough to warrant a commit, agents should generate the commit message and add it to the `.gitmessage` file (create if not found & add to gitignore).
-- **Append, Do NOT Overwrite:** Always ADD (append) new commit messages. You must NEVER overwrite any previous text already present in `.gitmessage`.
+When changes are substantial enough to warrant a commit, agents should record the commit message in the `.gitmessage` file (create if not found & add to gitignore).
+
+- **Mutate & Consolidate Existing Commit Blocks:** When continuing work on the current uncommitted changes or adding related changes, do NOT spawn a new title block every time. Instead, update/broaden the existing title to reflect the combined scope and add new bullet points under the existing list.
+
+  *Example (Preferred):*
+  ```text
+  docs: update design system documentation
+  - previous work description
+  - new incremental change
+  ```
+
+  *Avoid (Do not create fragmented title blocks for the same ongoing work):*
+  ```text
+  docs: previous title
+  - previous work description
+
+  docs: new title
+  - new incremental change
+  ```
+
+- **When to Start a New Block:** Only create a separate commit block if the changes represent a completely distinct logical type (e.g. `feat:` vs `fix:`) or after a commit has been finalized by the user.
+- **Preserve Prior History:** Never delete or wipe out previous finalized commit messages already present in `.gitmessage`.
 
 # Release Process
 
