@@ -1,5 +1,5 @@
 > [!NOTE]
-> **For installing on custom drive:** https://github.com/Apurv7Gupta/Self-Service-Programs/blob/main/Docker_on_custom_drive.md
+> **For installing on custom drive:** https://github.com/0xd34db8/Notes/blob/main/Docker/Install_Custom_Drive.md
 
 # Docker Desktop Installation
 
