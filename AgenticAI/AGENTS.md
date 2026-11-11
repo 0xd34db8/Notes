@@ -5,6 +5,7 @@
 - If .gitmessage is in the workspace and not already in .gitignore, then add it.
 - If .gitmessage is in .internal/ and .internal/ is in .gitignore already, then no need to add .gitmessage to the root or in .gitignore
 - Never try to revert changes manually made by the user
+- When working with documentation, make sure to NEVER include local file paths and directories, all keep them universal
 
 
 # Design System Rules
