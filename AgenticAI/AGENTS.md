@@ -1,3 +1,12 @@
+# Design System Rules
+
+- Always use tokenized theming systems when working with Reactjs or Nextjs repos
+- Never add redundant taglines under every line/button/feature/etc.
+- NEVER EVER use emojis in design
+- Ban emoji use: Do NOT use emojis ANYWHERE in the project. Use SVG icons when necessary.
+- Icon Overuse: Do not use icons everywhere for the sake of visual enhancement, use icons only where STRICTLY necessary, try to keep things minimal.
+- Heavy Drop Shadows: Ban generic, high-opacity, single-layer drop shadows (e.g., box-shadow: 0 4px 8px rgba(0,0,0,0.3)), use flat cards and panels with no shadows, do not apply shadows on hover as well, keep them flat.
+
 # Git Execution Rules
 
 - **Observational Commands Only:** Agents are strictly restricted to observation/read-only Git commands (e.g., viewing status, viewing git history/logs, diffs):
