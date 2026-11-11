@@ -1,7 +1,7 @@
 # Design System Rules
 
 - Always use tokenized theming systems when working with Reactjs or Nextjs repos
-- Never add redundant taglines under every line/button/feature/etc.
+- Never add redundant taglines under every line/button/feature/etc. try to be as minimal and clean as possible
 - NEVER EVER use emojis in design
 - Ban emoji use: Do NOT use emojis ANYWHERE in the project. Use SVG icons when necessary.
 - Icon Overuse: Do not use icons everywhere for the sake of visual enhancement, use icons only where STRICTLY necessary, try to keep things minimal.
