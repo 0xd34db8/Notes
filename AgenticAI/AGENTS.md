@@ -4,6 +4,7 @@
 - NEVER include info about .internal/ folder (if exists) and its contents in main workng files, those files are for your context, only you and the user know about them, people outside should never know about its existence, you can talk about it with the user, but never let it leak into main files.
 - If .gitmessage is in the workspace and not already in .gitignore, then add it.
 - If .gitmessage is in .internal/ and .internal/ is in .gitignore already, then no need to add .gitmessage to the root or in .gitignore
+- Never try to revert changes manually made by the user
 
 
 # Design System Rules
