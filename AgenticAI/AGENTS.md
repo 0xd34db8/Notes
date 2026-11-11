@@ -10,8 +10,7 @@
 
 - Always use tokenized theming systems when working with Reactjs or Nextjs repos
 - Never add redundant taglines under every line/button/feature/etc. try to be as minimal and clean as possible
-- NEVER EVER use emojis in design
-- Ban emoji use: Do NOT use emojis ANYWHERE in the project. Use SVG icons when necessary.
+- Ban emoji use: Do NOT use emojis ANYWHERE in Design. Use SVG icons when necessary.
 - Icon Overuse: Do not use icons everywhere for the sake of visual enhancement, use icons only where STRICTLY necessary, try to keep things minimal.
 - Heavy Drop Shadows: Ban generic, high-opacity, single-layer drop shadows (e.g., box-shadow: 0 4px 8px rgba(0,0,0,0.3)), use flat cards and panels with no shadows, do not apply shadows on hover as well, keep them flat.
 - Ban Generic Status Dots: Eliminate arbitrary colored status dots (whether static or pulsing) placed inside chips or next to text labels. This is a redundant, outdated dashboard pattern. Drive status entirely through crisp typography, negative space, or isolated monochromatic SVG icons.
