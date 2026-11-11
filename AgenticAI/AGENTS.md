@@ -6,6 +6,9 @@
 - Ban emoji use: Do NOT use emojis ANYWHERE in the project. Use SVG icons when necessary.
 - Icon Overuse: Do not use icons everywhere for the sake of visual enhancement, use icons only where STRICTLY necessary, try to keep things minimal.
 - Heavy Drop Shadows: Ban generic, high-opacity, single-layer drop shadows (e.g., box-shadow: 0 4px 8px rgba(0,0,0,0.3)), use flat cards and panels with no shadows, do not apply shadows on hover as well, keep them flat.
+- Ban Generic Status Dots: Eliminate arbitrary colored status dots (whether static or pulsing) placed inside chips or next to text labels. This is a redundant, outdated dashboard pattern. Drive status entirely through crisp typography, negative space, or isolated monochromatic SVG icons.
+- Ban Pastel Status Badges/Chips: Never use pastel, tinted, or saturated background fills for status chips, tags, or badges (e.g., a light teal background for a "Live" badge). Badges must use a transparent or neutral off-fill background (e.g., rgba(0,0,0,0.04)) with a subtle 1px border, relying purely on text color or font-weight for semantic meaning.
+- Colored Left-Border Indicators: Never use thick, colored left-borders (e.g., ::before { width: 3px; background: var(--color); }) on cards to indicate status, categories, or branding. This is a dated dashboard pattern.
 
 # Git Execution Rules
 
