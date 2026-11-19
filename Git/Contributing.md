@@ -1,3 +1,154 @@
+# **Contribute to someone's repo**
+
+## **Fork → Clone → Branch → Code → Push → PR**
+
+You work on your fork, not directly on the original repository.
+
+### **1. Fork the repository**
+
+Go to the original repo:
+
+Original repo
+
+[vaaibhavmishra/viclip](https://github.com/vaaibhavmishra/viclip?utm_source=chatgpt.com)
+
+Click **Fork** → create your own copy under your GitHub account.
+
+Your fork will look like:
+
+`your-username/viclip`
+
+### **2. Clone your fork locally**
+
+```
+git clone https://github.com/your-username/viclip.git
+cd viclip
+```
+
+### **3. Add the original repo as upstream**
+
+This lets you fetch updates from the original repository.
+
+```
+git remote add upstream https://github.com/vaaibhavmishra/viclip.git
+```
+
+Check your remotes:
+
+```
+git remote -v
+```
+
+You should have:
+
+- `origin` → your fork
+- `upstream` → original repo
+
+### **4. Create a feature branch**
+
+Don't work directly on `main`. Create a separate branch for each feature or fix.
+
+```
+git checkout -b feat/your-feature-name
+```
+
+Examples:
+
+```
+git checkout -b feat/add-dark-mode
+git checkout -b fix/navbar-responsive
+git checkout -b feat/add-user-settings
+```
+
+### **5. Make your changes**
+
+Implement your feature, test it, and review the changes.
+
+```
+git status
+git diff
+```
+
+Commit your work:
+
+```
+git add .
+git commit -m "feat: add your feature"
+```
+
+### **6. Push your branch to your fork**
+
+```
+git push -u origin feat/your-feature-name
+```
+
+This pushes your feature branch to **your GitHub fork**, not the original repo.
+
+### **7. Raise a Pull Request (PR)**
+
+On GitHub:
+
+1. Open your fork.
+2. Click **Compare & pull request**.
+3. Make sure the PR targets the **original repository**, not your fork.
+4. Verify the branch comparison:
+   - **Base repository:** `vaaibhavmishra/viclip`
+   - **Base branch:** `main` (or whatever branch the project uses)
+   - **Head repository:** `your-username/viclip`
+   - **Compare branch:** `feat/your-feature-name`
+5. Write a clear title and description.
+6. Click **Create pull request**.
+
+The maintainer reviews your code, requests changes if necessary, and eventually merges or rejects it.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://docs.github.com\&sz=32)
+
+
+
+## **The exact Git workflow**
+
+```
+
+# Clone your fork
+git clone https://github.com/your-username/viclip.git
+cd viclip
+
+# Add original repository as upstream
+git remote add upstream https://github.com/vaaibhavmishra/viclip.git
+
+# Create feature branch
+git checkout -b feat/my-feature
+
+# Make changes, then stage and commit
+git add .
+git commit -m "feat: add my feature"
+
+# Push branch to your fork
+git push -u origin feat/my-feature
+
+```
+
+Then create the PR on GitHub.
+
+## **One thing experienced contributors also do**
+
+Before starting work, sync your fork with the original repo so you're not working on outdated code.
+
+```
+git checkout main
+git fetch upstream
+git merge upstream/main
+git push origin main
+```
+
+Then create your feature branch from the updated `main`.
+
+Also, **check the repo's README, issues, and contribution guidelines before coding**. For a new feature, it's generally smarter to open an issue or discuss the idea first—especially if the project is actively maintained—to avoid spending time building something the maintainers don't want.
+
+[image](https://www.google.com/s2/favicons?domain=https://docs.github.com\&sz=32)
+
+# Issues
+
 Opening an issue first depends almost entirely on the scope of the change.
 
 In open source, the general etiquette breaks down into three distinct tiers:
